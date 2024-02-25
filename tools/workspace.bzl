@@ -1,4 +1,5 @@
 # Apollo external dependencies that can be loaded in WORKSPACE files.
+load("//third_party/zed:workspace.bzl", zed = "repo")
 load("//third_party/absl:workspace.bzl", absl = "repo")
 load("//third_party/adolc:workspace.bzl", adolc = "repo")
 load("//third_party/adv_plat:workspace.bzl", adv_plat = "repo")
@@ -46,9 +47,11 @@ load("//third_party/tensorrt:tensorrt_configure.bzl", "tensorrt_configure")
 load("//third_party/vtk:vtk_configure.bzl", "vtk_configure")
 load("//third_party/pcl:pcl_configure.bzl", "pcl_configure")
 
+
 def initialize_third_party():
     """ Load third party repositories.  See above load() statements. """
 
+    zed()
     absl()
     adolc()
     adv_plat()

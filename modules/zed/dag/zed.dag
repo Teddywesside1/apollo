@@ -1,0 +1,11 @@
+module_config {
+    module_library : "modules/zed/libzed_component.so"
+
+    components {
+      class_name : "ZedComponent"
+      config {
+        name : "ZedComponent",
+        config_file_path : "/apollo/modules/zed/conf/zed_config.pb.txt"
+      }
+    }
+}

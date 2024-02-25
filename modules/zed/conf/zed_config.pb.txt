@@ -1,0 +1,8 @@
+  zed_config {
+    input_svo_record: "/data/zed_svos/HD1080_SN38589646_13-44-18.svo"
+  }
+
+  channel {
+    left_image_channel_name: "/apollo/sensor/zed/left"
+    right_image_channel_name: "/apollo/sensor/zed/right"
+  }

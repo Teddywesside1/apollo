@@ -1,0 +1,3 @@
+/apollo/modules/zed/sample/build/CMakeFiles/rebuild_cache.dir
+/apollo/modules/zed/sample/build/CMakeFiles/ZED_Object_detection_birds_eye_viewer.dir
+/apollo/modules/zed/sample/build/CMakeFiles/edit_cache.dir
